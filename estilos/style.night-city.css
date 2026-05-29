@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.cidade {
+    margin: 50px auto;
+    width: min(1100px, 90%);
+    background-color: rgba(255,255,255,0.92);
+    padding: 25px;
+    border: 3px solid red;
+    box-shadow: 0 0 12px red;
+    border-radius: 3px;
+}
+
+.cidade h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.cidade img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.regiao {
+    margin-bottom: 50px;
+}
+
+.regiao h2 {
+    color: darkred;
+    text-transform: uppercase;
+    border-left: 5px solid darkred;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.regiao h3 {
+    color: darkred;
+}
+
+.regiao p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.8em;
+}
